@@ -1,7 +1,7 @@
-import { createClient} from '@supabase/supabase-js'
+import { createClient } from 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js/+esm'
 
-const supabaseUrl = 'https://your-supabase-url.supabase.co'
-const supabaseKey = 'your-anon-or-service-role-key'
-export const supabase = createClient(supabaseUrl, supabaseKey)
+const supabaseUrl = ' https://szsiinflooaigabkvldo.supabase.co'
+const supabaseKey = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InN6c2lpbmZsb29haWdhYmt2bGRvIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjUyNzE5MTksImV4cCI6MjA4MDg0NzkxOX0.grSEGDm9kptRtZOh-FPhJG2f8fS6f4TWwt4DwsK3JZ0
+const supabase = createClient(supabaseUrl, supabaseKey)
 
-export default supabase
+export  default { supabase }
